@@ -32,9 +32,9 @@ function Weather() {
             setForm({ ...getForm, city: value });
         }
         if (name === "country") {
-            setForm({ ...getForm, country: value })
+            setForm({ ...getForm, country: value });
         }
-        console.log(getForm.city, getForm.country)
+        console.log(getForm.city, getForm.country);
     }
 
     return (
